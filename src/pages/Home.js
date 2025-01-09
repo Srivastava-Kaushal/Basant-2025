@@ -203,7 +203,7 @@ const Home = ({ user }) => {
                 marginLeft: "15px",
               }}
             >
-              WEB DEV TEAM
+              TECHNICAL HEADS
             </h2>
           </div>
           <Carousel cardsList={organizsers} />

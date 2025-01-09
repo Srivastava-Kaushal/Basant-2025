@@ -88,49 +88,49 @@ export const mainCoordinators = [
     roles: ["Co-coordinator"],
     department: "Chemical Engineering",
   },
-  {
-    name: "Abhishek Tiwari",
-    imgSrc: "/media/coordinators/AbhishekT.webp",
-    roles: ["Security Head"],
-    department: "Computer Science and Engineering",
-  },
+  // {
+  //   name: "Abhishek Tiwari",
+  //   imgSrc: "/media/coordinators/AbhishekT.webp",
+  //   roles: ["Security Head"],
+  //   department: "Computer Science and Engineering",
+  // },
   
-  {
-    name: "Shubhranshu Animesh",
-    imgSrc: "/media/coordinators/Animesh.webp",
-    roles: ["Technical Team Head"],
-    department: "Mathematics and Computing",
-  },
-  {
-    name: "Abhishek Dadsena",
-    imgSrc: "/media/coordinators/Abhishek.webp",
-    roles: ["Hospitality Team"],
-    department: "Mechanical Engineering",
-  },
-  {
-    name: "Ayush Kumar",
-    imgSrc: "/media/coordinators/Ayush.webp",
-    roles: ["Hospitality Team"],
-    department: "Petroleum Engineering",
-  },
-  {
-    name: "Prajjwal Gurjar",
-    imgSrc: "/media/coordinators/Prajjwal.webp",
-    roles: ["Security Team"],
-    department: "Mechanical Engineering",
-  },
-  {
-    name: "Ratikesh Kumar Rajak",
-    imgSrc: "/media/coordinators/Ratikesh.webp",
-    roles: ["Operations and Logistics Team"],
-    department: "Mechanical Engineering",
-  },
-  {
-    name: "Tushar Raj",
-    imgSrc: "/media/coordinators/Tushar.webp",
-    roles: ["Sponsorship Team"],
-    department: "Applied Geophysics",
-  },
+  // {
+  //   name: "Shubhranshu Animesh",
+  //   imgSrc: "/media/coordinators/Animesh.webp",
+  //   roles: ["Technical Team Head"],
+  //   department: "Mathematics and Computing",
+  // },
+  // {
+  //   name: "Abhishek Dadsena",
+  //   imgSrc: "/media/coordinators/Abhishek.webp",
+  //   roles: ["Hospitality Team"],
+  //   department: "Mechanical Engineering",
+  // },
+  // {
+  //   name: "Ayush Kumar",
+  //   imgSrc: "/media/coordinators/Ayush.webp",
+  //   roles: ["Hospitality Team"],
+  //   department: "Petroleum Engineering",
+  // },
+  // {
+  //   name: "Prajjwal Gurjar",
+  //   imgSrc: "/media/coordinators/Prajjwal.webp",
+  //   roles: ["Security Team"],
+  //   department: "Mechanical Engineering",
+  // },
+  // {
+  //   name: "Ratikesh Kumar Rajak",
+  //   imgSrc: "/media/coordinators/Ratikesh.webp",
+  //   roles: ["Operations and Logistics Team"],
+  //   department: "Mechanical Engineering",
+  // },
+  // {
+  //   name: "Tushar Raj",
+  //   imgSrc: "/media/coordinators/Tushar.webp",
+  //   roles: ["Sponsorship Team"],
+  //   department: "Applied Geophysics",
+  // },
   
   // {
   //   name: "Harshal Ritwik",
@@ -138,12 +138,12 @@ export const mainCoordinators = [
   //   roles: ["Operations and Logistics Team"],
   //   department: "Electronics and Communication Engineering",
   // },
-  {
-    name: "Priyanshu Raj",
-    imgSrc: "/media/coordinators/Priyanshu Raj.webp",
-    roles: ["Content and Design Team"],
-    department: "Petroleum Engineering",
-  },
+  // {
+  //   name: "Priyanshu Raj",
+  //   imgSrc: "/media/coordinators/Priyanshu Raj.webp",
+  //   roles: ["Content and Design Team"],
+  //   department: "Petroleum Engineering",
+  // },
   // {
   //   name: "Tripti Kundu",
   //   imgSrc: "/media/coordinators/Tripti.jpg",
@@ -185,7 +185,7 @@ export const organizsers = [
   },
   {
     name: "Subham Dey",
-    imgSrc: "/media/organizsers/ankur.webp",
+    imgSrc: "/media/organizsers/my photo.jpg",
     roles: ["Technical Head"],
     department: "Mechanical Engineering",
   },
@@ -204,12 +204,12 @@ export const organizsers = [
 ];
 
 export const professors = [
-  {
-    name: "Prof. Prem Vrat",
-    imgSrc: "/media/professors/prem.webp",
-    roles: ["Cheif Patron", "Chairman"],
-    department: "Chairman Board of Governors, IIT (ISM)",
-  },
+  // {
+  //   name: "Prof. Prem Vrat",
+  //   imgSrc: "/media/professors/prem.webp",
+  //   roles: ["Cheif Patron", "Chairman"],
+  //   department: "Chairman Board of Governors, IIT (ISM)",
+  // },
   {
     name: "Prof. J.K. Pattanayak",
     imgSrc: "/media/professors/patnayak.webp",
@@ -219,7 +219,7 @@ export const professors = [
   {
     name: "Prof. Biswajit Paul",
     imgSrc: "/media/professors/Biswajit.webp",
-    roles: ["Vice-President"],
+    roles: ["Vice-President Of ISMAA"],
     department: "Department of Environmental Science and Engineering",
   },
   {
@@ -234,24 +234,24 @@ export const professors = [
     roles: ["Co-Convner"],
     department: "Department of Petroleum Engineering",
   },
-  {
-    name: "Prof. Manish Kumar Jain",
-    imgSrc: "/media/professors/Manish.webp",
-    roles: ["Convener"],
-    department: "Department of Environmental Science and Engineering",
-  },
-  {
-    name: "Prof. Ravi Kumar Gangwar",
-    imgSrc: "/media/professors/Ravi.webp",
-    roles: ["Co-Convner"],
-    department: "Department of Electronics Engineering",
-  },
-  {
-    name: "Prof. VGK Villuri",
-    imgSrc: "/media/professors/Villuri.webp",
-    roles: ["Treasurer"],
-    department: "Department of Mining Engineering",
-  },
+  // {
+  //   name: "Prof. Manish Kumar Jain",
+  //   imgSrc: "/media/professors/Manish.webp",
+  //   roles: ["Convener"],
+  //   department: "Department of Environmental Science and Engineering",
+  // },
+  // {
+  //   name: "Prof. Ravi Kumar Gangwar",
+  //   imgSrc: "/media/professors/Ravi.webp",
+  //   roles: ["Co-Convner"],
+  //   department: "Department of Electronics Engineering",
+  // },
+  // {
+  //   name: "Prof. VGK Villuri",
+  //   imgSrc: "/media/professors/Villuri.webp",
+  //   roles: ["Treasurer"],
+  //   department: "Department of Mining Engineering",
+  // },
 ];
 
 export const highlights = ["1", "2", "8", "11", "14", "16"];
