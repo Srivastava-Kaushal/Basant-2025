@@ -5,9 +5,64 @@ import { ReactComponent as ScrollDownIcon } from "../media/icons/down.svg";
 import HeroVideo from "../media/ism3.mp4";
 import HeroImage from "../media/hero-image.png";
 import styles from "./Hero.module.scss";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Hero = () => {
   const [isLive, setIsLive] = useState(false);
+
+  const AnimatedText = () => {
+    const text = "BASANT '25"; // The text to animate
+    const letters = text.split(""); // Split the text into individual characters
+
+    // Use the useInView hook to track when the component is in view
+    const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.1 });
+
+    // Animation variants for the letters
+    const letterVariants = {
+      hidden: {
+        opacity: 0,
+        y: -50, // Start position (above the view)
+      },
+      visible: {
+        opacity: 1,
+        y: 0, // End position (original position)
+        transition: {
+          type: "spring",
+          stiffness: 300,
+          damping: 20,
+        },
+      },
+    };
+
+    return (
+      <div
+        ref={ref}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          fontSize: "5rem", // Increased font size
+          fontWeight: "bold",
+        }}
+      >
+        {letters.map((letter, index) => (
+          <motion.span
+            key={index}
+            className="shouldAnimate"
+            variants={letterVariants}
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"} // Trigger animation when in view
+            transition={{
+              delay: index * 0.2, // Staggered delay for each letter
+            }}
+            style={{ display: "inline-block", margin: "0 5px" }} // Adjust spacing
+          >
+            {letter}
+          </motion.span>
+        ))}
+      </div>
+    );
+  };
 
   // useEffect(() => {
   //   const navEl = document.getElementById('nav');
@@ -84,10 +139,19 @@ const Hero = () => {
           <span className="shouldAnimate">I</span>
           <span className="shouldAnimate">I</span>
           <span className="shouldAnimate">I</span> */}
-          <span className="shouldAnimate">Basant & III</span>
+          {AnimatedText()}
+          
         </h1>
 
+        <div>
+          <h1>Fifty years of memories, cherished and bright,</h1>
+          <h1>We reunite once more under the festive light.</h1>
+          <h1>Basant-2025, where old friends meet,</h1>
+          <h1>To relive the moments that time can't beat.</h1>
+        </div>
+
         <div className={styles.timeline}>
+        
           {!isLive && (
             <>
               <p>The countdown begins!</p>

@@ -3,6 +3,7 @@ import echoOfArunachal from "../media/logo/echo_arunachal.png";
 import hotelObsidianBlue from "../media/logo/hotel-obsidian-blue.png";
 import bye from "../media/bye.png";
 import cx from "classnames";
+import basantLogo from "../media/logo/BASANT_LOGO.png";
 import { ReactComponent as MailIcon } from "../media/icons/mail.svg";
 import { ReactComponent as WAIcon } from "../media/icons/wa.svg";
 import { useState } from "react";
@@ -111,7 +112,7 @@ const Footer = () => {
           <div>
             <div className={styles.LogoContainer}>
               <img
-                src="./media/Logo_White.png"
+                src={basantLogo}
                 alt="logo"
                 style={{ width: "160px", height: "160px" }}
               />
@@ -140,7 +141,8 @@ const Footer = () => {
             </button>
           </span>
           <span className={styles.sep}>~</span> */}
-          <span>&copy; 2024 BASANT IIT(ISM) DHANBAD</span>
+          <span>&copy; {new Date().getFullYear()} BASANT IIT(ISM) DHANBAD</span>
+
           {/* {devTeam && (
             <ul className={styles.devteam}>
               <li>

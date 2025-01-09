@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./HomeHero.module.scss";
+import basantLogo from "../media/logo/BASANT_LOGO.png";
 
 const HomeHero = () => {
   return (
@@ -27,49 +28,36 @@ const HomeHero = () => {
     <article className={styles.container}>
       <div className={styles.basantContainer}>
         <div className={styles.textContainer}>
-          <h1 className={styles.title}>BASANT & III 2024</h1>
+        {/* <h1><p>Fifty years of memories, cherished and bright,
+We reunite once more under the festive light.
+Basant-2025, where old friends meet,
+To relive the moments that time can't beat.
+</p></h1> */}
+          <h1 className={styles.title}>BASANT 2025</h1>
           <p className={styles.homeHeroDesc}>
-            Basant is the official alumni reunion of IIT (ISM) Dhanbad. The
-            reunion is one of the most emotional times of the institute's
-            calendar as the batch that had passed out 50 years back returns to
-            the campus to reminisce about their old college memories. The event
-            not only celebrates the enduring bonds formed during their academic
-            journey but also serves as a platform for the alumni to contribute
-            their wisdom and experiences to the current generation of students.
+           Basant-2025, a grand celebration of the 1975 batch of IIT (ISM), Dhanbad! After fifty years, we gather once again to relive the cherished memories of our college days. This reunion is not just an event, but a heartfelt journey back to where friendships were born and dreams began. It’s a chance to reconnect, celebrate the bonds we've shared, and create new memories together. We look forward to welcoming you with open arms, as we honor the legacy of our batch and the timeless spirit of camaraderie that unites us all. 
           </p>
         </div>
         <div className={styles.imageContainer}>
           <img
             className={styles.homeHeroimg}
-            src="./media/Logo_Colour.png"
+            src={basantLogo}
             alt="Basant Logo"
           />
         </div>
+        
       </div>
       <div className={styles.iiiContainer}>
         <div className={styles.textContainer}>
-          <p className={styles.homeHeroDesc}>
-            The main objective of the Industry Institute Interaction - 2024 (III
-            - 2024) is to create a common platform that brings together the
-            academic and industrial communities to share and update their
-            knowledge in the areas of Industry 4.0: Innovations and Research for
-            Sustainable Development. Through its technical program, it aims to
-            provide an outstanding interface to address new trends and
-            challenges in these fields and their various applications in our
-            daily life and industries. It will include keynote addresses and
-            invited talks from eminent scientists, distinguished faculties, and
-            industry experts.
-          </p>
-          {/* <button className={styles.registerBtn}>Register</button> */}
+        <div>
+          <h1>Fifty years of memories, cherished and bright,</h1>
+          <h1>We reunite once more under the festive light.</h1>
+          <h1>Basant-2025, where old friends meet,</h1>
+          <h1>To relive the moments that time can't beat.</h1>
         </div>
-        <div className={styles.imageContainer}>
-          <img
-            className={styles.homeHeroimg}
-            src="./media/III_logo.png"
-            alt="III Logo"
-          />
-          {/* <button className={styles.registerBtn2}>Register</button> */}
+          
         </div>
+        
       </div>
     </article>
   );

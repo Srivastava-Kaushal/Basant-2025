@@ -258,20 +258,20 @@ export const highlights = ["1", "2", "8", "11", "14", "16"];
 
 export const BasantMessageData = [
   {
-    name: "Prof Sushanta Sarangi",
-    role: "Convener, Basant'24",
+    name: "Prof Sahendra Singh",
+    role: "Convener, Basant'25",
     department: "Department of Applied Geology",
     img: "/media/basant-2024/convenor.webp",
     message:
-      "Embracing the spirit of tradition and unity, Basant has always stood as a monumental occasion for IIT (ISM) Dhanbad. It serves as a platform, rekindling old friendships, cherishing memories, and commemorating the enduring bond that has connected our esteemed alumni to the institute across the sands of time.Basant’24 is scheduled to take place from 3rd February to 4th February.Welcoming back the batch that graduated half a century ago, the campuse agerly awaits to be a witness to the resurfacing of timeless memories. A series of events has been meticulously planned to create an immersive experience, including Cultural Programs, Games and Sports, Bhumi Pujan, Photography Sessions, Fete, Award Ceremony, General Body Meeting, Star Night, and a visit to the Maithon Dam, in order to make the reunion memorable to the Alumnis and give them the memories to cherish forever.On behalf of IIT(ISM) Dhanbad, we extend a warm welcome to all the Alumnis for the Golden Jubilee Reunion, Basant’24. We hope that this reunion becomes an indelible chapter in the hearts of our cherished alumni, gifting them moments to treasure for a lifetime.",
+      "Embracing the spirit of tradition and unity, Basant has always stood as a monumental occasion for IIT (ISM) Dhanbad. It serves as a platform, rekindling old friendships, cherishing memories, and commemorating the enduring bond that has connected our esteemed alumni to the institute across the sands of time.Basant’25 is scheduled to take place from 1st February to 2nd February.Welcoming back the batch that graduated half a century ago, the campuse agerly awaits to be a witness to the resurfacing of timeless memories. A series of events has been meticulously planned to create an immersive experience, including Cultural Programs, Games and Sports, Photography Sessions, Fete, Award Ceremony, General Body Meeting, Star Night, and a visit to the Maithon Dam, in order to make the reunion memorable to the Alumnis and give them the memories to cherish forever.On behalf of IIT(ISM) Dhanbad, we extend a warm welcome to all the Alumnis for the Golden Jubilee Reunion, Basant’25. We hope that this reunion becomes an indelible chapter in the hearts of our cherished alumni, gifting them moments to treasure for a lifetime.",
   },
   {
-    name: "Prof Vinay Kumar Rajak",
-    role: "Co-Convener, Basant'24",
-    department: "Department of Petroleum Engineering",
+    name: "Prof A C S Rao",
+    role: "Co-Convener, Basant'25",
+    department: "Department of Computer Science and Engineering",
     img: "/media/basant-2024/co-convenor.webp",
     message:
-      "Basant, the official alumni reunion of IIT (ISM) Dhanbad, stands as atestament to the enduring bonds that have withstood the test of time, serving as a celebration of the connections that still resonate within the soul of the campus. As we gather to celebrate the rich legacy of our institution and the enduring spirit of camaraderie, we look forward to creating new memories that will add another layer to the ever-evolving story of IIT (ISM) Dhanbad. 50 years after graduation, our esteemed alumni come back to the campus to reminisce the enduring friendships and unforgettable memories. Basant’24, scheduled from 3rd February to 4th February, promises to be an unforgettable celebration.Various events have been planned that includes Cultural Programs, Award Ceremony, General Body Meeting, indoor and outdoor sports activities, Photography Sessions, Star Night etc. We extend a heartfelt and warm welcome to all our esteemed alumni for Basant’24. May this celebration become an unforgettable chapter in the hearts of our alums, bestowing upon them moments to cherish and memories to last a lifetime",
+      "Basant, the official alumni reunion of IIT (ISM) Dhanbad, stands as atestament to the enduring bonds that have withstood the test of time, serving as a celebration of the connections that still resonate within the soul of the campus. As we gather to celebrate the rich legacy of our institution and the enduring spirit of camaraderie, we look forward to creating new memories that will add another layer to the ever-evolving story of IIT (ISM) Dhanbad. 50 years after graduation, our esteemed alumni come back to the campus to reminisce the enduring friendships and unforgettable memories. Basant’25, scheduled from 1st February to 2nd February, promises to be an unforgettable celebration.Various events have been planned that includes Cultural Programs, Award Ceremony, General Body Meeting, indoor and outdoor sports activities, Photography Sessions, Star Night etc. We extend a heartfelt and warm welcome to all our esteemed alumni for Basant’25. May this celebration become an unforgettable chapter in the hearts of our alums, bestowing upon them moments to cherish and memories to last a lifetime",
   },
 ];
 

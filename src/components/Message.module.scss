@@ -4,12 +4,14 @@
   padding-inline: 2em;
   margin-bottom: 2em;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  
+  align-items: flex-start; /* Align items diagonally */
+  justify-content: space-between; /* Space items apart */
   gap: 30px;
 
   @media screen and (max-width: 640px) {
     flex-direction: column !important;
+    align-items: center; /* Center items on smaller screens */
   }
 
   .introContainer {
@@ -53,6 +55,7 @@
   }
 
   .textContainer {
+    flex: 1; /* Allow the text container to grow */
     text-align: justify;
 
     > span {
@@ -80,11 +83,13 @@
 }
 
 .reverse {
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /* Reverse the order for odd items */
+  align-items: flex-end; /* Align diagonally for reverse rows */
 }
 
-.message{
+.message {
   @media screen and (max-width: 780px) {
     flex-direction: column !important;
+    align-items: center; /* Adjust alignment for smaller screens */
   }
 }

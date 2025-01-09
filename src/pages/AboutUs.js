@@ -15,10 +15,10 @@ const AboutUs = () => {
         </h1>
       </header>
 
-      <h3 className={stylesB.subHeading}>
+      {/* <h3 className={stylesB.subHeading}>
         <span>III 2024</span>
-      </h3>
-      {IiiMessageData.map(
+      </h3> */}
+      {/* {IiiMessageData.map(
         ({ department, img, message, name, role }, idx) => (
           <section className={stylesB.container} id="convenor" key={idx}>
             <h3 className={stylesB.title}>
@@ -41,7 +41,7 @@ const AboutUs = () => {
             <div className={stylesB.textContainer}>{message}</div>
           </section>
         )
-      )}
+      )} */}
       <h3 className={stylesB.subHeading}>
         <span>Basant 2024</span>
       </h3>

@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from './Navigation.module.scss';
 import cx from 'classnames';
+import basantLogo from '../media/logo/BASANT_LOGO.png';
 
 const links = [
   { link: '/', name: 'Home', onlyMobile: true },
