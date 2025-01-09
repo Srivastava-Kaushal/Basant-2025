@@ -9,84 +9,84 @@
 export const eventStartDate = "Feb 3, 2024 10:00:00";
 
 export const mainCoordinators = [
-  {
-    name: "Yash Tarun",
-    imgSrc: "/media/coordinators/Tarun.webp",
-    roles: ["Sponsorship Team"],
-    department: "Electrical Engineering",
-  },
-  {
-    name: "Rounak Raj",
-    imgSrc: "/media/coordinators/Rounak.webp",
-    roles: ["Public Relations Team"],
-    department: "Computer Science and Engineering",
-  },
-  {
-    name: "Yash Agrawal",
-    imgSrc: "/media/coordinators/Yash.webp",
-    roles: ["Sponsorship Team"],
-    department: "Electronics and Communication Engineering",
-  },
-  {
-    name: "Kaveri Patel",
-    imgSrc: "/media/coordinators/Kaveri.webp",
-    roles: ["Content and Design Team"],
-    department: "Electrical Engineering",
-  },
-  {
-    name: "Jeet Balode",
-    imgSrc: "/media/coordinators/Jeet.webp",
-    roles: ["Public Relations Team"],
-    department: "Civil Engineering",
-  },
-  {
-    name: "Rohit Kumar Mondal",
-    imgSrc: "/media/coordinators/Rohit.webp",
-    roles: ["Promotion & Marketing Head"],
-    department: "Mining Engineering",
-  },
+  // {
+  //   name: "Yash Tarun",
+  //   imgSrc: "/media/coordinators/Tarun.webp",
+  //   roles: ["Sponsorship Team"],
+  //   department: "Electrical Engineering",
+  // },
+  // {
+  //   name: "Rounak Raj",
+  //   imgSrc: "/media/coordinators/Rounak.webp",
+  //   roles: ["Public Relations Team"],
+  //   department: "Computer Science and Engineering",
+  // },
+  // {
+  //   name: "Yash Agrawal",
+  //   imgSrc: "/media/coordinators/Yash.webp",
+  //   roles: ["Sponsorship Team"],
+  //   department: "Electronics and Communication Engineering",
+  // },
+  // {
+  //   name: "Kaveri Patel",
+  //   imgSrc: "/media/coordinators/Kaveri.webp",
+  //   roles: ["Content and Design Team"],
+  //   department: "Electrical Engineering",
+  // },
+  // {
+  //   name: "Jeet Balode",
+  //   imgSrc: "/media/coordinators/Jeet.webp",
+  //   roles: ["Public Relations Team"],
+  //   department: "Civil Engineering",
+  // },
+  // {
+  //   name: "Rohit Kumar Mondal",
+  //   imgSrc: "/media/coordinators/Rohit.webp",
+  //   roles: ["Promotion & Marketing Head"],
+  //   department: "Mining Engineering",
+  // },
 
+  // {
+  //   name: "Shivankar Mehta",
+  //   imgSrc: "/media/coordinators/Shivankar.webp",
+  //   roles: ["Event Team"],
+  //   department: "Mechanical Engineering",
+  // },
+  // {
+  //   name: "Rachit Kumar",
+  //   imgSrc: "/media/coordinators/Rachit.webp",
+  //   roles: ["Event Team"],
+  //   department: "Petroleum Engineering",
+  // },
+  // {
+  //   name: "Utsav Raj",
+  //   imgSrc: "/media/coordinators/Utsav.webp",
+  //   roles: ["Content Team "],
+  //   department: "Computer Science and Engineering",
+  // },
+  // {
+  //   name: "Kumar Akash",
+  //   imgSrc: "/media/coordinators/Kumar.webp",
+  //   roles: ["Promotion and Marketing Team"],
+  //   department: "Petroleum Engineering",
+  // },
   {
-    name: "Shivankar Mehta",
-    imgSrc: "/media/coordinators/Shivankar.webp",
-    roles: ["Event Team"],
-    department: "Mechanical Engineering",
-  },
-  {
-    name: "Rachit Kumar",
-    imgSrc: "/media/coordinators/Rachit.webp",
-    roles: ["Event Team"],
-    department: "Petroleum Engineering",
-  },
-  {
-    name: "Utsav Raj",
-    imgSrc: "/media/coordinators/Utsav.webp",
-    roles: ["Content Team "],
-    department: "Computer Science and Engineering",
-  },
-  {
-    name: "Kumar Akash",
-    imgSrc: "/media/coordinators/Kumar.webp",
-    roles: ["Promotion and Marketing Team"],
-    department: "Petroleum Engineering",
-  },
-  {
-    name: "Kanishka Ranjan",
+    name: "Saurav Shakti",
     imgSrc: "/media/coordinators/Kanishk.webp",
     roles: ["Coordinator"],
-    department: "Mining Machinery Engineering",
+    department: "Mineral and Metallurgical Engineering",
   },
   {
-    name: "Devesh Singh",
+    name: "Samragyi Chamoli",
     imgSrc: "/media/coordinators/devesh.webp",
     roles: ["Co-coordinator"],
-    department: "Petroleum Engineering",
+    department: "Management Studies and Industrial Engineering",
   },
   {
-    name: "Aashish Ranjan Singh",
-    imgSrc: "/media/coordinators/Aashish.webp",
-    roles: ["Technical Head"],
-    department: "Mathematics and Computing",
+    name: "Navjot Singh",
+    imgSrc: "/media/coordinators/devesh.webp",
+    roles: ["Co-coordinator"],
+    department: "Chemical Engineering",
   },
   {
     name: "Abhishek Tiwari",
@@ -178,29 +178,29 @@ export const mainCoordinators = [
 
 export const organizsers = [
   {
-    name: "Kunal Jaiswal",
-    imgSrc: "/media/organizsers/kunal.webp",
-    roles: ["Organizer"],
-    department: "Mechanical Engineering",
-  },
-  {
-    name: "Ankur Gautam",
-    imgSrc: "/media/organizsers/ankur.webp",
-    roles: ["Organizer"],
-    department: "Computer Science and Engineering",
-  },
-  {
-    name: "Archisman Roy",
-    imgSrc: "/media/organizsers/archi.webp",
-    roles: ["Organizer"],
-    department: "Computer Science and Engineering",
-  },
-  {
     name: "Kaushal Kumar Srivastava",
     imgSrc: "/media/organizsers/Kaushal.webp",
-    roles: ["Organizer"],
+    roles: ["Technical Head"],
     department: "Mechanical Engineering",
   },
+  {
+    name: "Subham Dey",
+    imgSrc: "/media/organizsers/ankur.webp",
+    roles: ["Technical Head"],
+    department: "Mechanical Engineering",
+  },
+  // {
+  //   name: "Archisman Roy",
+  //   imgSrc: "/media/organizsers/archi.webp",
+  //   roles: ["Organizer"],
+  //   department: "Computer Science and Engineering",
+  // },
+  // {
+  //   name: "Kaushal Kumar Srivastava",
+  //   imgSrc: "/media/organizsers/Kaushal.webp",
+  //   roles: ["Organizer"],
+  //   department: "Mechanical Engineering",
+  // },
 ];
 
 export const professors = [

@@ -4,7 +4,8 @@ import hotelObsidianBlue from "../media/logo/hotel-obsidian-blue.png";
 import bye from "../media/bye.png";
 import cx from "classnames";
 import basantLogo from "../media/logo/BASANT_LOGO.png";
-import { ReactComponent as MailIcon } from "../media/icons/mail.svg";
+import centenaryLogo from "../media/logo/Centenary_logo.jpg";
+import { ReactComponent as MailIcon } from "../media/icons/mail.svg"; 
 import { ReactComponent as WAIcon } from "../media/icons/wa.svg";
 import { useState } from "react";
 
@@ -116,8 +117,14 @@ const Footer = () => {
                 alt="logo"
                 style={{ width: "160px", height: "160px" }}
               />
+              <img
+                src={centenaryLogo}
+                alt="logo"
+                style={{ width: "160px", height: "160px" }}
+              />
               {/* <div className={styles.title}>Basant'24</div> */}
             </div>
+
           </div>
           {/* <div className={styles['sponsor-wrapper']}>
             <div className={styles.sponsor}>

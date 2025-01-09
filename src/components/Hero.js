@@ -19,7 +19,7 @@ const Hero = () => {
     const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.1 });
 
     // Animation variants for the letters
-    const letterVariants = {
+    const letterVariants = (index) => ({
       hidden: {
         opacity: 0,
         y: -50, // Start position (above the view)
@@ -31,9 +31,10 @@ const Hero = () => {
           type: "spring",
           stiffness: 300,
           damping: 20,
+          delay: index * 0.1, // Delay increases with the index
         },
       },
-    };
+    });
 
     return (
       <div
@@ -46,20 +47,17 @@ const Hero = () => {
         }}
       >
         {letters.map((letter, index) => (
-          <motion.span
-            key={index}
-            className="shouldAnimate"
-            variants={letterVariants}
-            initial="hidden"
-            animate={inView ? "visible" : "hidden"} // Trigger animation when in view
-            transition={{
-              delay: index * 0.2, // Staggered delay for each letter
-            }}
-            style={{ display: "inline-block", margin: "0 5px" }} // Adjust spacing
-          >
-            {letter}
-          </motion.span>
-        ))}
+  <motion.span
+    key={index}
+    className="shouldAnimate"
+    variants={letterVariants(index)} // Pass index to the function
+    initial="hidden"
+    animate={inView ? "visible" : "hidden"} // Trigger animation when in view
+    style={{ display: "inline-block", margin: "0 5px" }} // Adjust spacing
+  >
+    {letter}
+  </motion.span>
+))}
       </div>
     );
   };
