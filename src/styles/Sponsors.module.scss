@@ -1,0 +1,71 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  margin-block: 2em;
+  padding-inline: 2em;
+  margin-bottom: 4rem;
+
+  .imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+      gap: 1rem;  // Adjust the gap for smaller screens
+    }
+  }
+}
+
+.sponsorImg {
+  max-width: 50%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+
+  @media (max-width: 768px) {
+    width: 50%;  // Make the images take the full width on smaller screens
+  }
+}
+
+.coalImg {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+
+  @media (max-width: 768px) {
+    width: 100%;  // Make the images take the full width on smaller screens
+  }
+}
+
+
+.subHeading {
+  text-align: center;
+  font-weight: 500;
+  margin-block: 1rem;
+  font-size: 3rem;
+  text-wrap: nowrap;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;  // Adjust the font size for smaller screens
+  }
+}
+
+.heading {
+  font-size: max(10vw, 60px);
+  font-family: "Antonio", sans-serif;
+  font-weight: 200;
+  letter-spacing: -0.15ch;
+  line-height: 0.9;
+  text-transform: uppercase;
+  transform: translateX(-0.15ch);
+  margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+    font-size: 4rem;  // Adjust the font size for smaller screens
+  }
+}

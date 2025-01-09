@@ -1,0 +1,90 @@
+.container {
+  width: 100%;
+  margin: auto;
+  padding-inline: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+
+  @media screen and (max-width: 640px) {
+    flex-direction: column !important;
+  }
+
+  .introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    .roundedCircle {
+      display: flex;
+      width: 200px;
+      height: 200px;
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 50%;
+      border: 4px solid black;
+      object-position: 50% 5%;
+      object-fit: cover;
+      position: relative;
+      margin: auto;
+      align-self: center;
+    }
+
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      width: fit-content;
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 50%;
+      object-position: center;
+      object-fit: cover;
+      position: relative;
+    }
+
+    .detailsContainer {
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 1.4em;
+    }
+  }
+
+  .textContainer {
+    text-align: justify;
+
+    > span {
+      display: -webkit-box;
+      -webkit-line-clamp: 10;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .readMoreButton {
+      margin-top: 2px;
+      background-color: #007bff;
+      color: #fff;
+      padding: 2px 4px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.message{
+  @media screen and (max-width: 780px) {
+    flex-direction: column !important;
+  }
+}
