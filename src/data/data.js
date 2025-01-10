@@ -4,7 +4,7 @@
 
 // export { goldSponsorImage, silverSponsorImage, bronzeSponsorImage };
 
-
+import campusTour from "../media/campusTour.webp";
 
 export const eventStartDate = "Feb 3, 2024 10:00:00";
 
@@ -211,10 +211,10 @@ export const professors = [
   //   department: "Chairman Board of Governors, IIT (ISM)",
   // },
   {
-    name: "Prof. J.K. Pattanayak",
-    imgSrc: "/media/professors/patnayak.webp",
-    roles: ["Patron", "Director IIT(ISM) Dhanbad"],
-    department: "Department of Management Studies and Industrial Engineering",
+    name: "Dr Sukumar Mishra",
+    imgSrc: "/media/professors/SSMishra.png",
+    roles: [ "Director IIT(ISM) Dhanbad"],
+    // department: "Department of Management Studies and Industrial Engineering",
   },
   {
     name: "Prof. Biswajit Paul",
@@ -223,16 +223,16 @@ export const professors = [
     department: "Department of Environmental Science and Engineering",
   },
   {
-    name: "Prof. S. Sarangi",
+    name: "Prof. Sahendra Singh",
     imgSrc: "/media/professors/Sarangi.webp",
     roles: ["Convener"],
     department: "Department of Applied Geology",
   },
   {
-    name: "Prof. Vinay Kumar Rajak",
+    name: "Prof. A C S Rao",
     imgSrc: "/media/professors/Vinay.webp",
     roles: ["Co-Convner"],
-    department: "Department of Petroleum Engineering",
+    department: "Department of Computer Science and Engineering",
   },
   // {
   //   name: "Prof. Manish Kumar Jain",
@@ -246,12 +246,12 @@ export const professors = [
   //   roles: ["Co-Convner"],
   //   department: "Department of Electronics Engineering",
   // },
-  // {
-  //   name: "Prof. VGK Villuri",
-  //   imgSrc: "/media/professors/Villuri.webp",
-  //   roles: ["Treasurer"],
-  //   department: "Department of Mining Engineering",
-  // },
+  {
+    name: "Prof. VGK Villuri",
+    imgSrc: "/media/professors/Villuri.webp",
+    roles: ["Treasurer"],
+    department: "Department of Mining Engineering",
+  },
 ];
 
 export const highlights = ["1", "2", "8", "11", "14", "16"];
@@ -303,7 +303,7 @@ export const events = {
       "https://images.pexels.com/photos/6292463/pexels-photo-6292463.jpeg",
     day: 1,
     time: "09:00 ",
-    venue: "Old Hostel / Lawn Tennis Court",
+    venue: " SAC / Old Hostel / Lawn Tennis Court / Lower Ground",
     desc: "",
     type: "",
     highlight: false,
@@ -311,11 +311,11 @@ export const events = {
   17: {
     id: "17",
     slotId: "0",
-    title: "Bhumi Pujan ",
+    title: "Campus Tour",
     figureSrc:
-      "https://www.sriastrovastu.com/wp-content/uploads/2019/11/Bhoomi-Puja_2-1-1.jpg",
+      {campusTour}||"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.collegepravesh.com%2Fengineering-colleges%2Fiit-ism-dhanbad%2F&psig=AOvVaw3dmGjyUlD1MH0f00RkGELB&ust=1736609570786000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCWhve864oDFQAAAAAdAAAAABAZ",
     day: 1,
-    time: "11:00",
+    time: "12:00",
     venue: "In front of new library",
     desc: "",
     type: "Contest",
@@ -331,7 +331,7 @@ export const events = {
     figureSrc:
       "https://media.istockphoto.com/id/613556530/photo/eating-delicous-homemade-chicken-curry-dish-with-rice.jpg?s=612x612&w=0&k=20&c=q_kUV6Un4IJiKqTL606q-r7ZzqWktDuvfaAU4EBHZ7g=",
     day: 1,
-    time: "12:30",
+    time: "13:00",
     venue: "Penman Quadrangle",
     desc: "",
     type: "Contest",
@@ -347,7 +347,7 @@ export const events = {
       "https://images.unsplash.com/photo-1562874662-050427780b20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     day: 1,
     time: "15:00",
-    venue: "Outside GJLT",
+    venue: "Lower Ground",
     desc: "",
     type: "Contest",
     highlight: false,
@@ -357,7 +357,7 @@ export const events = {
   4: {
     id: "4",
     slotId: "1",
-    title: "GBM",
+    title: "AGM",
     figureSrc:
       "https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg",
     day: 1,
@@ -372,11 +372,11 @@ export const events = {
   },
   5: {
     id: "5",
-    title: "Award Ceremony",
+    title: "BASANT Samman ",
     figureSrc:
       "https://i.pinimg.com/564x/5d/96/ad/5d96ad72a3cb1e169185d9001be37aff.jpg",
     day: 1,
-    time: "18:00",
+    time: "19:00",
     venue: "Penman Auditorium",
     desc: "",
     type: "Event",
@@ -388,7 +388,7 @@ export const events = {
     figureSrc:
       "https://images.pexels.com/photos/1656066/pexels-photo-1656066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     day: 1,
-    time: "17:00",
+    time: "18:00",
     venue: "Penman Auditorium",
     desc: "",
     type: "Concert",
@@ -401,7 +401,7 @@ export const events = {
     figureSrc:
       "https://media.istockphoto.com/id/1553473885/photo/happy-extended-indian-family-dining-together-outdoors-in-fancy-house-garden-at-night-family.jpg?s=612x612&w=0&k=20&c=_oUDTPMo6pMHzCXFnZf7uEkTKoOb0RE5GzvldYdFH0A=",
     day: 1,
-    time: "19:45",
+    time: "20:00",
     venue: "Penman Quadrangle",
     desc: "",
     type: "Contest",
@@ -410,22 +410,22 @@ export const events = {
     solo: true,
     rules: "https://github.com/nit-ap/atulyam/blob/main/README.md",
   },
-  1: {
-    id: "1",
-    slotId: "2",
-    title: "Star Night",
-    figureSrc:
-      "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    day: 1,
-    time: "20:30",
-    venue: "Gymkhana ground",
-    desc: "",
-    type: "Contest",
-    highlight: true,
-    isRegistrationOpen: false,
-    solo: false,
-    rules: "https://github.com/nit-ap/atulyam/blob/main/README.md",
-  },
+  // 1: {
+  //   id: "1",
+  //   slotId: "2",
+  //   title: "Star Night",
+  //   figureSrc:
+  //     "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  //   day: 1,
+  //   time: "20:30",
+  //   venue: "Gymkhana ground",
+  //   desc: "",
+  //   type: "Contest",
+  //   highlight: true,
+  //   isRegistrationOpen: false,
+  //   solo: false,
+  //   rules: "https://github.com/nit-ap/atulyam/blob/main/README.md",
+  // },
   9: {
     id: "9",
     slotId: "3",
@@ -445,11 +445,11 @@ export const events = {
   10: {
     id: "10",
     slotId: "4",
-    title: "Visit to Moonidih/Maithan",
+    title: "Visit to Picnic Spot",
     figureSrc:
       "https://media1.thrillophilia.com/filestore/kufj4lh0atr4tknlt06w7hu02iff_1468498056_kasol_(14).JPG",
     day: 0,
-    time: "11:00",
+    time: "10:00",
     venue: "",
     desc: "",
     type: "Contest",
@@ -469,6 +469,22 @@ export const events = {
     desc: "",
     type: "Pre round for Mr. & Ms. Atulyam",
     highlight: false,
+  },
+  7: {
+    id: "7",
+    slotId: "2",
+    title: "Dinner",
+    figureSrc:
+      "https://media.istockphoto.com/id/1553473885/photo/happy-extended-indian-family-dining-together-outdoors-in-fancy-house-garden-at-night-family.jpg?s=612x612&w=0&k=20&c=_oUDTPMo6pMHzCXFnZf7uEkTKoOb0RE5GzvldYdFH0A=",
+    day: 0,
+    time: "20:00",
+    venue: "Penman Quadrangle",
+    desc: "",
+    type: "Contest",
+    highlight: false,
+    isRegistrationOpen: false,
+    solo: true,
+    rules: "https://github.com/nit-ap/atulyam/blob/main/README.md",
   },
 };
 

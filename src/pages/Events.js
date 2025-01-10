@@ -78,8 +78,8 @@ const Events = ({ user }) => {
           </NavLink>
         </div> */}
         <div className={cx("subtitle", styles["header-subtitle"])}>
-          <h2>Feb.3-4</h2>
-          <div>2024</div>
+          <h2>Feb.1-2</h2>
+          <div>2025</div>
         </div>
       </header>
       <main className={cx(styles["main-content"])}>
