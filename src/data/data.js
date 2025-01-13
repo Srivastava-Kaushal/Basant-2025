@@ -84,7 +84,7 @@ export const mainCoordinators = [
   },
   {
     name: "Navjot Singh",
-    imgSrc: "/media/coordinators/Navjot Singh.jpg",
+    imgSrc: "/media/coordinators/Navjot.jpg",
     roles: ["Co-coordinator"],
     department: "Chemical Engineering",
   },
@@ -145,7 +145,7 @@ export const professors = [
   //   department: "Chairman Board of Governors, IIT (ISM)",
   // },
   {
-    name: "Prof Mritunjay Sharma",
+    name: "Mr Mritunjay Sharma",
     imgSrc: "/media/professors/M-Sharma.jpeg",
     roles: [ "Assistant Registrar"],
     // department: "Department of Management Studies and Industrial Engineering",
