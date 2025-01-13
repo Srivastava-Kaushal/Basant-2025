@@ -145,7 +145,7 @@ export const professors = [
   //   department: "Chairman Board of Governors, IIT (ISM)",
   // },
   {
-    name: "Dr Sukumar Mishra",
+    name: "Prof Mritunjay Sharma",
     imgSrc: "/media/professors/M-Sharma.jpeg",
     roles: [ "Assistant Registrar"],
     // department: "Department of Management Studies and Industrial Engineering",
