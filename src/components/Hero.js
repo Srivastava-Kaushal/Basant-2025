@@ -141,12 +141,12 @@ const Hero = () => {
           
         </h1>
 
-        <div>
+        {/* <div>
           <h1>Fifty years of memories, cherished and bright,</h1>
           <h1>We reunite once more under the festive light.</h1>
           <h1>Basant-2025, where old friends meet,</h1>
           <h1>To relive the moments that time can't beat.</h1>
-        </div>
+        </div> */}
 
         <div className={styles.timeline}>
         

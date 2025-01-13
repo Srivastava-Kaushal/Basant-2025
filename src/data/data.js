@@ -6,201 +6,135 @@
 
 import campusTour from "../media/campusTour.webp";
 
-export const eventStartDate = "Feb 3, 2024 10:00:00";
+export const eventStartDate = "Feb 1, 2025 10:00:00";
 
 export const mainCoordinators = [
-  // {
-  //   name: "Yash Tarun",
-  //   imgSrc: "/media/coordinators/Tarun.webp",
-  //   roles: ["Sponsorship Team"],
-  //   department: "Electrical Engineering",
-  // },
-  // {
-  //   name: "Rounak Raj",
-  //   imgSrc: "/media/coordinators/Rounak.webp",
-  //   roles: ["Public Relations Team"],
-  //   department: "Computer Science and Engineering",
-  // },
-  // {
-  //   name: "Yash Agrawal",
-  //   imgSrc: "/media/coordinators/Yash.webp",
-  //   roles: ["Sponsorship Team"],
-  //   department: "Electronics and Communication Engineering",
-  // },
-  // {
-  //   name: "Kaveri Patel",
-  //   imgSrc: "/media/coordinators/Kaveri.webp",
-  //   roles: ["Content and Design Team"],
-  //   department: "Electrical Engineering",
-  // },
-  // {
-  //   name: "Jeet Balode",
-  //   imgSrc: "/media/coordinators/Jeet.webp",
-  //   roles: ["Public Relations Team"],
-  //   department: "Civil Engineering",
-  // },
-  // {
-  //   name: "Rohit Kumar Mondal",
-  //   imgSrc: "/media/coordinators/Rohit.webp",
-  //   roles: ["Promotion & Marketing Head"],
-  //   department: "Mining Engineering",
-  // },
+  {
+    name: "Harshita Mahbubani",
+    imgSrc: "/media/coordinators/Harshita Mahbubani.jpg",
+    roles: ["Sponsorship Team"],
+    department: "Mechanical Engineering",
+  },
+  {
+    name: "Prajesh Anand",
+    imgSrc: "/media/coordinators/Prajesh Anand.jpg",  
+    roles: ["Public Relations Team"],
+    department: "Mathematics and Computing",
+  },
+  {
+    name: "Abhishek Upadhyay",
+    imgSrc: "/media/coordinators/Abhishek Kumar Upadhyay.jpg",
+    roles: ["Sponsorship Team"],
+    department: "Electronics and Communication Engineering",
+  },
+  {
+    name: "Manish Kumar",
+    imgSrc: "/media/coordinators/Manish kumar.jpg",
+    roles: ["Operations and Logistics Team"],
+    department: "Electrical Engineering",
+  },
+  {
+    name: "Aman Kumar",
+    imgSrc: "/media/coordinators/Aman Kumar.png",
+    roles: ["Public Relations Team"],
+    department: "Environmental Engineering",
+  },
+  {
+    name: "Koushika Varshney",
+    imgSrc: "/media/coordinators/Koushika Varshney.jpg",
+    roles: ["Promotion & Marketing Head"],
+    department: "Mangement Studies and Industrial Engineering",
+  },
 
-  // {
-  //   name: "Shivankar Mehta",
-  //   imgSrc: "/media/coordinators/Shivankar.webp",
-  //   roles: ["Event Team"],
-  //   department: "Mechanical Engineering",
-  // },
-  // {
-  //   name: "Rachit Kumar",
-  //   imgSrc: "/media/coordinators/Rachit.webp",
-  //   roles: ["Event Team"],
-  //   department: "Petroleum Engineering",
-  // },
-  // {
-  //   name: "Utsav Raj",
-  //   imgSrc: "/media/coordinators/Utsav.webp",
-  //   roles: ["Content Team "],
-  //   department: "Computer Science and Engineering",
-  // },
-  // {
-  //   name: "Kumar Akash",
-  //   imgSrc: "/media/coordinators/Kumar.webp",
-  //   roles: ["Promotion and Marketing Team"],
-  //   department: "Petroleum Engineering",
-  // },
+  {
+    name: "Sanchit Tiwari",
+    imgSrc: "/media/coordinators/Sanchit Tiwari.png",
+    roles: ["Event Team"],
+    department: "Chemical Engineering",
+  },
+  {
+    name: "Farissa Erham",
+    imgSrc: "/media/coordinators/Farissa Erham.jpg",
+    roles: ["Event Team"],
+    department: "Petroleum Engineering",
+  },
+  {
+    name: "Rishika Kumari",
+    imgSrc: "/media/coordinators/Rishika Paswan.webp",
+    roles: ["Content and Design Team "],
+    department: "Petroleum Engineering",
+  },
+  {
+    name: "Anand Kumar",
+    imgSrc: "/media/coordinators/ANAND KUMAR.jpg",
+    roles: ["Promotion and Marketing Team"],
+    department: "Civil Engineering",
+  },
   {
     name: "Saurav Shakti",
-    imgSrc: "/media/coordinators/Kanishk.webp",
+    imgSrc: "/media/coordinators/SAURAV SHAKTI.jpg",
     roles: ["Coordinator"],
     department: "Mineral and Metallurgical Engineering",
   },
   {
     name: "Samragyi Chamoli",
-    imgSrc: "/media/coordinators/devesh.webp",
+    imgSrc: "/media/coordinators/Samragyi chamoli.jpg",
     roles: ["Co-coordinator"],
     department: "Management Studies and Industrial Engineering",
   },
   {
     name: "Navjot Singh",
-    imgSrc: "/media/coordinators/devesh.webp",
+    imgSrc: "/media/coordinators/Navjot Singh.jpg",
     roles: ["Co-coordinator"],
     department: "Chemical Engineering",
   },
-  // {
-  //   name: "Abhishek Tiwari",
-  //   imgSrc: "/media/coordinators/AbhishekT.webp",
-  //   roles: ["Security Head"],
-  //   department: "Computer Science and Engineering",
-  // },
+  {
+    name: "Mohit Gupta",
+    imgSrc: "/media/coordinators/Mohit Gupta.jpeg",
+    roles: ["Security Head"],
+    department: "Petroleum Engineering",
+  },
   
-  // {
-  //   name: "Shubhranshu Animesh",
-  //   imgSrc: "/media/coordinators/Animesh.webp",
-  //   roles: ["Technical Team Head"],
-  //   department: "Mathematics and Computing",
-  // },
-  // {
-  //   name: "Abhishek Dadsena",
-  //   imgSrc: "/media/coordinators/Abhishek.webp",
-  //   roles: ["Hospitality Team"],
-  //   department: "Mechanical Engineering",
-  // },
-  // {
-  //   name: "Ayush Kumar",
-  //   imgSrc: "/media/coordinators/Ayush.webp",
-  //   roles: ["Hospitality Team"],
-  //   department: "Petroleum Engineering",
-  // },
-  // {
-  //   name: "Prajjwal Gurjar",
-  //   imgSrc: "/media/coordinators/Prajjwal.webp",
-  //   roles: ["Security Team"],
-  //   department: "Mechanical Engineering",
-  // },
-  // {
-  //   name: "Ratikesh Kumar Rajak",
-  //   imgSrc: "/media/coordinators/Ratikesh.webp",
-  //   roles: ["Operations and Logistics Team"],
-  //   department: "Mechanical Engineering",
-  // },
-  // {
-  //   name: "Tushar Raj",
-  //   imgSrc: "/media/coordinators/Tushar.webp",
-  //   roles: ["Sponsorship Team"],
-  //   department: "Applied Geophysics",
-  // },
+  {
+    name: "Nishank Kumar",
+    imgSrc: "/media/coordinators/Nishank Neem.jpg",
+    roles: ["Hospitality Team"],
+    department: "Civil Engineering",
+  },
+  {
+    name: "Vitthal Bhalot",
+    imgSrc: "/media/coordinators/VITTHAL BHALOT.jpg",
+    roles: ["Hospitality Team"],
+    department: "Mathematics and Computing Engineering",
+  },
+  {
+    name: "Sushant Sharma",
+    imgSrc: "/media/coordinators/Sushant_Sharma.jpg",
+    roles: ["Security Team"],
+    department: "Computer Science and Engineering",
+  },
+  {
+    name: "Sunny Kumar",
+    imgSrc: "/media/coordinators/Sunny Kumar.jpg",
+    roles: ["Operations and Logistics Team"],
+    department: "Mechanical Engineering",
+  },
   
-  // {
-  //   name: "Harshal Ritwik",
-  //   imgSrc: "/media/coordinators/Harshal.webp",
-  //   roles: ["Operations and Logistics Team"],
-  //   department: "Electronics and Communication Engineering",
-  // },
-  // {
-  //   name: "Priyanshu Raj",
-  //   imgSrc: "/media/coordinators/Priyanshu Raj.webp",
-  //   roles: ["Content and Design Team"],
-  //   department: "Petroleum Engineering",
-  // },
-  // {
-  //   name: "Tripti Kundu",
-  //   imgSrc: "/media/coordinators/Tripti.jpg",
-  //   roles: ["Cultural Team"],
-  //   department: "Chemistry and Chemical Biology",
-  // },
-  // {
-  //   name: "Ankit Joshi",
-  //   imgSrc: "/media/coordinators/Ankit.jpeg",
-  //   roles: ["Cultural Team"],
-  //   department: "Chemistry and Chemical Biology",
-  // },
-  // {
-  //   name: "SHARIQ FARHAN ELAHI",
-  //   imgSrc: "/media/coordinators/Shariq.jpg",
-  //   roles: ["Cultural Team"],
-  //   department: "Chemical Engineering",
-  // },
-  // {
-  //   name: "Aakash Rajpoot",
-  //   imgSrc: "/media/coordinators/aakash.jpg",
-  //   roles: ["Cultural Team"],
-  //   department: "Chemical Engineering",
-  // },
-  // {
-  //   name: "Dr. Ajay",
-  //   imgSrc: "/media/coordinators/ajay.jpg",
-  //   roles: ["Cultural Team"],
-  //   department: "Chemical Engineering",
-  // },
 ];
 
-export const organizsers = [
+export const technicalCoordinators = [
   {
     name: "Kaushal Kumar Srivastava",
-    imgSrc: "/media/organizsers/Kaushal.webp",
+    imgSrc: "/media/coordinators/Kaushal Srivastava.jpg",
     roles: ["Technical Head"],
     department: "Mechanical Engineering",
   },
   {
     name: "Subham Dey",
-    imgSrc: "/media/organizsers/my photo.jpg",
+    imgSrc: "/media/coordinators/Subham Dey.jpg",
     roles: ["Technical Head"],
     department: "Mechanical Engineering",
   },
-  // {
-  //   name: "Archisman Roy",
-  //   imgSrc: "/media/organizsers/archi.webp",
-  //   roles: ["Organizer"],
-  //   department: "Computer Science and Engineering",
-  // },
-  // {
-  //   name: "Kaushal Kumar Srivastava",
-  //   imgSrc: "/media/organizsers/Kaushal.webp",
-  //   roles: ["Organizer"],
-  //   department: "Mechanical Engineering",
-  // },
 ];
 
 export const professors = [
@@ -212,8 +146,8 @@ export const professors = [
   // },
   {
     name: "Dr Sukumar Mishra",
-    imgSrc: "/media/professors/SSMishra.png",
-    roles: [ "Director IIT(ISM) Dhanbad"],
+    imgSrc: "/media/professors/M-Sharma.jpeg",
+    roles: [ "Assistant Registrar"],
     // department: "Department of Management Studies and Industrial Engineering",
   },
   {
@@ -224,13 +158,13 @@ export const professors = [
   },
   {
     name: "Prof. Sahendra Singh",
-    imgSrc: "/media/professors/Sarangi.webp",
+    imgSrc: "/media/professors/Sahendra-Singh.jpg",
     roles: ["Convener"],
     department: "Department of Applied Geology",
   },
   {
     name: "Prof. A C S Rao",
-    imgSrc: "/media/professors/Vinay.webp",
+    imgSrc: "/media/professors/ACSRao.png",
     roles: ["Co-Convner"],
     department: "Department of Computer Science and Engineering",
   },
@@ -261,7 +195,7 @@ export const BasantMessageData = [
     name: "Prof Sahendra Singh",
     role: "Convener, Basant'25",
     department: "Department of Applied Geology",
-    img: "/media/basant-2024/convenor.webp",
+    img: "/media/professors/Sahendra-Singh.jpg",
     message:
       "Embracing the spirit of tradition and unity, Basant has always stood as a monumental occasion for IIT (ISM) Dhanbad. It serves as a platform, rekindling old friendships, cherishing memories, and commemorating the enduring bond that has connected our esteemed alumni to the institute across the sands of time.Basant’25 is scheduled to take place from 1st February to 2nd February.Welcoming back the batch that graduated half a century ago, the campuse agerly awaits to be a witness to the resurfacing of timeless memories. A series of events has been meticulously planned to create an immersive experience, including Cultural Programs, Games and Sports, Photography Sessions, Fete, Award Ceremony, General Body Meeting, Star Night, and a visit to the Maithon Dam, in order to make the reunion memorable to the Alumnis and give them the memories to cherish forever.On behalf of IIT(ISM) Dhanbad, we extend a warm welcome to all the Alumnis for the Golden Jubilee Reunion, Basant’25. We hope that this reunion becomes an indelible chapter in the hearts of our cherished alumni, gifting them moments to treasure for a lifetime.",
   },
@@ -269,7 +203,7 @@ export const BasantMessageData = [
     name: "Prof A C S Rao",
     role: "Co-Convener, Basant'25",
     department: "Department of Computer Science and Engineering",
-    img: "/media/basant-2024/co-convenor.webp",
+    img: "/media/professors/ACSRao.png",
     message:
       "Basant, the official alumni reunion of IIT (ISM) Dhanbad, stands as atestament to the enduring bonds that have withstood the test of time, serving as a celebration of the connections that still resonate within the soul of the campus. As we gather to celebrate the rich legacy of our institution and the enduring spirit of camaraderie, we look forward to creating new memories that will add another layer to the ever-evolving story of IIT (ISM) Dhanbad. 50 years after graduation, our esteemed alumni come back to the campus to reminisce the enduring friendships and unforgettable memories. Basant’25, scheduled from 1st February to 2nd February, promises to be an unforgettable celebration.Various events have been planned that includes Cultural Programs, Award Ceremony, General Body Meeting, indoor and outdoor sports activities, Photography Sessions, Star Night etc. We extend a heartfelt and warm welcome to all our esteemed alumni for Basant’25. May this celebration become an unforgettable chapter in the hearts of our alums, bestowing upon them moments to cherish and memories to last a lifetime",
   },

@@ -7,7 +7,7 @@ import { ReactComponent as LinkIcon } from "../media/icons/link.svg";
 import Carousel from "../components/Carousel";
 import HighlightCard from "../components/HighlightCard";
 
-import { BasantEvents, events, highlights, organizsers } from "../data/data";
+import { BasantEvents, events, highlights, technicalCoordinators } from "../data/data";
 import { mainCoordinators, coordinators, professors } from "../data/data";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
@@ -206,7 +206,7 @@ const Home = ({ user }) => {
               TECHNICAL HEADS
             </h2>
           </div>
-          <Carousel cardsList={organizsers} />
+          <Carousel cardsList={technicalCoordinators} />
         </main>
       </section>
     </motion.div>
