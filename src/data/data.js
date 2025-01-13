@@ -165,7 +165,7 @@ export const professors = [
   {
     name: "Prof. A C S Rao",
     imgSrc: "/media/professors/ACSRao.png",
-    roles: ["Co-Convner"],
+    roles: ["Co-Convener"],
     department: "Department of Computer Science and Engineering",
   },
   // {
