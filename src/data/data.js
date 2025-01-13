@@ -72,7 +72,7 @@ export const mainCoordinators = [
   },
   {
     name: "Saurav Shakti",
-    imgSrc: "/media/coordinators/SAURAV SHAKTI.jpg",
+    imgSrc: "/media/coordinators/SAURAV SHAKTI.JPG",
     roles: ["Coordinator"],
     department: "Mineral and Metallurgical Engineering",
   },
