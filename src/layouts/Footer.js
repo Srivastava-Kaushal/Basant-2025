@@ -5,6 +5,7 @@ import bye from "../media/bye.png";
 import cx from "classnames";
 import basantLogo from "../media/logo/BASANT_LOGO.png";
 import centenaryLogo from "../media/logo/Centenary_logo.jpg";
+import logo_100 from "../media/logo/100yrs_logo.jpg"
 import { ReactComponent as MailIcon } from "../media/icons/mail.svg"; 
 import { ReactComponent as WAIcon } from "../media/icons/wa.svg";
 import { useState } from "react";
@@ -115,7 +116,7 @@ const Footer = () => {
               <img
                 src={basantLogo}
                 alt="logo"
-                style={{ width: "160px", height: "160px" }}
+                style={{ width: "160px", height: "160px",backgroundColor:"white" }}
               />
               <img
                 src={centenaryLogo}

@@ -252,8 +252,7 @@ export const events = {
     id: "17",
     slotId: "0",
     title: "Campus Tour",
-    figureSrc:
-      {campusTour}||"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.collegepravesh.com%2Fengineering-colleges%2Fiit-ism-dhanbad%2F&psig=AOvVaw3dmGjyUlD1MH0f00RkGELB&ust=1736609570786000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCWhve864oDFQAAAAAdAAAAABAZ",
+    figureSrc:"https://www.jagranimages.com/images/newimg/28062022/28_06_2022-iit_ism_22843707.jpg",
     day: 1,
     time: "12:00",
     venue: "In front of new library",
