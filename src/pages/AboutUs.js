@@ -43,7 +43,7 @@ const AboutUs = () => {
         )
       )} */}
       <h3 className={stylesB.subHeading}>
-        <span>Basant 2024</span>
+        <span>Basant 2025</span>
       </h3>
       {BasantMessageData.map(
         ({ department, img, message, name, role }, idx) => (
