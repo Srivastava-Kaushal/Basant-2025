@@ -145,9 +145,9 @@ export const professors = [
   //   department: "Chairman Board of Governors, IIT (ISM)",
   // },
   {
-    name: "Mr Mritunjay Sharma",
+    name: "Shri Mritunjay Sharma",
     imgSrc: "/media/professors/M-Sharma.jpeg",
-    roles: [ "Assistant Registrar"],
+    roles: [ "Assistant Registrar, IRAA"],
     // department: "Department of Management Studies and Industrial Engineering",
   },
   {
@@ -168,23 +168,29 @@ export const professors = [
     roles: ["Co-Convener"],
     department: "Department of Computer Science and Engineering",
   },
-  // {
-  //   name: "Prof. Manish Kumar Jain",
-  //   imgSrc: "/media/professors/Manish.webp",
-  //   roles: ["Convener"],
-  //   department: "Department of Environmental Science and Engineering",
-  // },
-  // {
-  //   name: "Prof. Ravi Kumar Gangwar",
-  //   imgSrc: "/media/professors/Ravi.webp",
-  //   roles: ["Co-Convner"],
-  //   department: "Department of Electronics Engineering",
-  // },
+  {
+    name: "Prof. Tanmoy Maity",
+    imgSrc: "/media/professors/Tanmoy Maity.jpg",
+    roles: ["Associate Dean IRAA"],
+    // department: "Department of Environmental Science and Engineering",
+  },
+  {
+    name: "Prof. R M Bhattacharjee",
+    imgSrc: "/media/professors/RM Bhattacharjee.jpg",
+    roles: ["Dean IRAA"],
+    department: "Department of Mining Engineering",
+  },
   {
     name: "Prof. VGK Villuri",
     imgSrc: "/media/professors/Villuri.webp",
     roles: ["Treasurer"],
     department: "Department of Mining Engineering",
+  },
+  {
+    name: "Prof. Dheeraj Kumar",
+    imgSrc: "/media/professors/Dheeraj Kumar.jpg",
+    roles: ["Deputy Director, IIT (ISM) Dhanbad"],
+    // department: "Department of Mining Engineering",
   },
 ];
 
