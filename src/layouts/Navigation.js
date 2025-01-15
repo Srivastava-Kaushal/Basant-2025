@@ -4,11 +4,11 @@ import cx from 'classnames';
 import basantLogo from '../media/logo/BASANT_LOGO.png';
 
 const links = [
-  { link: '/', name: 'Home', onlyMobile: true },
+  { link: '/', name: 'Home' },
   { link: '/events', name: 'Events' },
   { link: '/gallery', name: 'Gallery' },
   { link: '/about-us', name: 'About Us' },
-  { link: '/sponser', name: 'Sponsors', auth: true },
+  // { link: '/sponser', name: 'Sponsors', auth: true },
   { link: '/user', name: 'Profile', auth: true },
 ]
 
@@ -40,13 +40,20 @@ const Navigation = ({ user }) => {
     <header>
       <nav className={styles.nav} id="nav">
         <div className={styles.logo}>
+        <NavLink to={'/'}>
+    <img 
+      style={{ width: "50px", height: "30px", paddingRight: "5px" }} 
+      src={basantLogo} 
+      alt="Basant Logo" 
+    />
+  </NavLink>
           <NavLink to={'/'}>Basant</NavLink>
         </div>
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links.filter(link => !link.onlyMobile && (!link.auth || user.user)).map(link => <NavItem key={link.name} {...link} />)}
-          {!user.user && (
+          {/* {!user.user && (
             <NavItem link={'/sponser'} name={'Sponsors'} />
-          )}
+          )} */}
           {/* {user.user && user.admin && (
             <NavItem link={'/admin'} name={'Admin'} />
           )} */}
@@ -75,7 +82,7 @@ const Navigation = ({ user }) => {
           )} */}
         </ul>
         <div className={styles['nav-footer']}>
-          &copy;2024 BASANT IIT(ISM) DHANBAD
+          &copy;2025 BASANT IIT(ISM) DHANBAD
         </div>
       </nav>
     </header>

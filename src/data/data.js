@@ -64,12 +64,7 @@ export const mainCoordinators = [
     roles: ["Content and Design Team "],
     department: "Petroleum Engineering",
   },
-  {
-    name: "Anand Kumar",
-    imgSrc: "/media/coordinators/ANAND KUMAR.jpg",
-    roles: ["Promotion and Marketing Team"],
-    department: "Civil Engineering",
-  },
+  
   {
     name: "Saurav Shakti",
     imgSrc: "/media/coordinators/SAURAV SHAKTI.JPG",
@@ -123,6 +118,12 @@ export const mainCoordinators = [
 ];
 
 export const technicalCoordinators = [
+  {
+    name: "Anand Kumar",
+    imgSrc: "/media/coordinators/ANAND KUMAR.jpg",
+    roles: ["Technical Head"],
+    department: "Civil Engineering",
+  },
   {
     name: "Kaushal Kumar Srivastava",
     imgSrc: "/media/coordinators/Kaushal Srivastava.jpg",

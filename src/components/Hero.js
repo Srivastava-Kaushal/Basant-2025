@@ -41,8 +41,7 @@ const Hero = () => {
         ref={ref}
         style={{
           display: "flex",
-          justifyContent: "center",
-          fontSize: "5rem", // Increased font size
+          justifyContent: "center", // Increased font size
           fontWeight: "bold",
         }}
       >
