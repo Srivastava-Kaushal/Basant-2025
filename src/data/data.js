@@ -390,7 +390,7 @@ export const events = {
       "https://media1.thrillophilia.com/filestore/kufj4lh0atr4tknlt06w7hu02iff_1468498056_kasol_(14).JPG",
     day: 0,
     time: "10:00",
-    venue: "",
+    venue: "Oval ground",
     desc: "",
     type: "Contest",
     highlight: false,
@@ -410,8 +410,8 @@ export const events = {
     type: "Pre round for Mr. & Ms. Atulyam",
     highlight: false,
   },
-  7: {
-    id: "7",
+  17: {
+    id: "17",
     slotId: "2",
     title: "Dinner",
     figureSrc:
