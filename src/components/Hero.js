@@ -7,7 +7,7 @@ import HeroImage from "../media/hero-image.png";
 import styles from "./Hero.module.scss";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import ReactPlayer from 'react-player/vimeo';
 const Hero = () => {
   const [isLive, setIsLive] = useState(false);
 
@@ -41,7 +41,8 @@ const Hero = () => {
         ref={ref}
         style={{
           display: "flex",
-          justifyContent: "center", // Increased font size
+          justifyContent: "center",
+          fontSize: "5rem", // Increased font size
           fontWeight: "bold",
         }}
       >
@@ -112,17 +113,18 @@ const Hero = () => {
     <div className={styles.hero} id="hero">
       {/* <img className={styles["hero-bg"]} src={HeroImage} alt="" /> */}
       <div className={styles.grain}></div>
-      <video
-        className={styles["hero-bg"]}
-        autoPlay={true}
-        muted={true}
-        loop={true}
-      >
-        <source
-          src="https://basant-bucket.s3.ap-southeast-2.amazonaws.com/Homevideo.mp4"
-          type="video/mp4"
-        />
-      </video>
+      <div className={styles["hero-bg"]}>
+  <ReactPlayer
+    url="https://vimeo.com/1047276488/27744ae835"
+    className="react-player"
+    width="100%"
+    height="100%"
+    controls={true} // Set to false for a cleaner hero experience
+    playing
+    muted
+    loop // Loop the video for continuous playback
+  />
+</div>
       {/* <img src="./media/HomeVideo.gif" className={styles["hero-bg"]} /> */}
       <div className={styles.content}>
         <h1 className={styles.logo}>
