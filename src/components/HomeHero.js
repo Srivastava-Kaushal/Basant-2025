@@ -52,14 +52,11 @@ const HomeHero = () => {
         <div className={styles.textContainer}>
           <h1 className={styles.title}>BASANT 2025</h1>
           <p className={styles.homeHeroDesc}>
-            Basant-2025, a grand celebration of the 1975 batch of IIT (ISM),
-            Dhanbad! After fifty years, we gather once again to relive the
-            cherished memories of our college days. This reunion is not just an
-            event, but a heartfelt journey back to where friendships were born
-            and dreams began. It's a chance to reconnect, celebrate the bonds
-            we've shared, and create new memories together. We look forward to
-            welcoming you with open arms, as we honor the legacy of our batch
-            and the timeless spirit of camaraderie that unites us all.
+          As we welcome the esteemed 1975 batch of IIT (ISM), Dhanbad back to their alma mater, we, the students, are honored to be part of this monumental occasion. Fifty years since their journey began, this reunion is more than a celebration—it's a tribute to the friendships, dreams, and unforgettable moments that shaped their lives.  
+
+          Basant-2025 is our way of reliving those golden days through your stories, experiences, and shared memories. It's a time for you to reconnect, reminisce, and inspire the generations that followed in your footsteps.  
+
+          We are thrilled to celebrate this incredible milestone with you, to honor the legacy of your batch, and to witness the timeless spirit of camaraderie that continues to define the IIT (ISM) family. Welcome home, dear alumni, as we create memories together that bridge the past and the present.
           </p>
         </div>
         <div className={styles.imageContainer}>
