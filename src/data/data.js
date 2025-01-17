@@ -110,6 +110,12 @@ export const mainCoordinators = [
     department: "Mathematics and Computing Engineering",
   },
   {
+    name: "Himanshu Mittal",
+    imgSrc: "/media/coordinators/Himanshu Mittal.jpg",
+    roles: ["Hospitality Team"],
+    department: "Chemical Engineering",
+  },
+  {
     name: "Sushant Sharma",
     imgSrc: "/media/coordinators/Sushant_Sharma.jpg",
     roles: ["Security Team"],
