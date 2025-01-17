@@ -88,14 +88,14 @@ export const mainCoordinators = [
     name: "Tanushree",
     imgSrc: "/media/coordinators/Tanushree.jpg",
     roles: ["Content and Design Team "],
-    department: "Petroleum Engineering",
+    department: "Mechanical Engineering",
   },
-  {
-    name: "Tanushree",
-    imgSrc: "/media/coordinators/Tanushree.jpg",
-    roles: ["Content and Design Team "],
-    department: "Petroleum Engineering",
-  },
+  // {
+  //   name: "Tanushree",
+  //   imgSrc: "/media/coordinators/Tanushree.jpg",
+  //   roles: ["Content and Design Team "],
+  //   department: "Petroleum Engineering",
+  // },
   {
     name: "Mohit Gupta",
     imgSrc: "/media/coordinators/Mohit Gupta.jpeg",
