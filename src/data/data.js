@@ -84,6 +84,12 @@ export const mainCoordinators = [
     department: "Chemical Engineering",
   },
   {
+    name: "Tanushree",
+    imgSrc: "/media/coordinators/Tanushree.jpg",
+    roles: ["Content and Design Team "],
+    department: "Petroleum Engineering",
+  },
+  {
     name: "Mohit Gupta",
     imgSrc: "/media/coordinators/Mohit Gupta.jpeg",
     roles: ["Security Head"],
