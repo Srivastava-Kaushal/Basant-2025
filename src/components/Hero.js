@@ -64,10 +64,19 @@ const Hero = () => {
         <ReactPlayer
           url="https://vimeo.com/1047880625/44fc4c7289"
           className={styles["hero-video"]}
-          controls={true} // Set to false for a cleaner hero experience
+          controls={true}
           playing
           muted
-          loop // Loop the video for continuous playback
+          loop
+          width="100vw"
+          height="90vh"
+          // config={{
+          //   vimeo: {
+          //     playerOptions: { background: true },
+          //   },
+          // }}
+          style={{ objectFit: "cover",
+          marginBottom: "2rem" }}
         />
       </div>
       <div className={styles.content}>
@@ -88,9 +97,9 @@ const Hero = () => {
   </div>
 )}
 </div>
-      <div className={styles.scrollDown} aria-hidden="true">
+      {/* <div className={styles.scrollDown} aria-hidden="true">
         <ScrollDownIcon />
-      </div>
+      </div> */}
     </div>
   );
 };
