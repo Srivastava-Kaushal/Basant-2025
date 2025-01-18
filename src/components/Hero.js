@@ -39,129 +39,55 @@ const Hero = () => {
     return (
       <div
         ref={ref}
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          fontSize: "5rem", // Increased font size
-          fontWeight: "bold",
-        }}
+        className={styles["animated-text"]}
       >
         {letters.map((letter, index) => (
-  <motion.span
-    key={index}
-    className="shouldAnimate"
-    variants={letterVariants(index)} // Pass index to the function
-    initial="hidden"
-    animate={inView ? "visible" : "hidden"} // Trigger animation when in view
-    style={{ display: "inline-block", margin: "0 5px" }} // Adjust spacing
-  >
-    {letter}
-  </motion.span>
-))}
+          <motion.span
+            key={index}
+            className={styles.letter}
+            variants={letterVariants(index)} // Pass index to the function
+            initial="hidden"
+            animate={inView ? "visible" : "hidden"} // Trigger animation when in view
+            style={{ display: "inline-block", margin: "0 5px" }} // Adjust spacing
+          >
+            {letter}
+          </motion.span>
+        ))}
       </div>
     );
   };
 
-  // useEffect(() => {
-  //   const navEl = document.getElementById('nav');
-  //   const heroEl = document.getElementById('hero');
-  //   const heroLogoLetters = document.querySelectorAll('.shouldAnimate');
-  //   const coordinatorNames = document.getElementById('coordinatorsList');
-
-  //   const parallaxAnimate = () => {
-  //     // animate hero logo letters
-  //     const offsetTop = heroLogoLetters[0].offsetTop;
-  //     const speed = 0.04;
-  //     for (let i = 0; i < heroLogoLetters.length; i++) {
-  //       /** @type {HTMLElement} */
-  //       let el = heroLogoLetters[i];
-  //       const shift = Math.abs(3 - i) * speed * (offsetTop - el.getBoundingClientRect().top);
-  //       el.style.transform = 'translate3d(0, ' + shift.toFixed(3) + 'px, 0)';
-  //     }
-
-  //     // parallax animate coordinators
-  //     let coordNamesTopOffset = coordinatorNames.getBoundingClientRect().top;
-  //     coordinatorNames.style.transform = 'translate3d(0, ' + speed * coordNamesTopOffset.toFixed(3) + 'px, 0)';
-  //   }
-
-  //   const observer = new IntersectionObserver(entries => {
-  //     entries.forEach(entry => {
-  //       if (entry.isIntersecting) {
-  //         navEl.style.position = 'absolute';
-  //         navEl.style.top = '100vh';
-  //       } else {
-  //         navEl.style.position = 'fixed';
-  //         navEl.style.top = '0';
-  //       }
-  //     })
-  //   })
-
-  //   if (heroEl) observer.observe(heroEl);
-  //   if (heroLogoLetters.length > 0) {
-  //     window.addEventListener('scroll', parallaxAnimate);
-  //   }
-
-  //   return () => {
-  //     window.removeEventListener('scroll', parallaxAnimate);
-  //     observer.disconnect()
-  //     navEl.style.position = 'fixed';
-  //     navEl.style.top = '0';
-  //   }
-  // }, [])
-
   return (
     <div className={styles.hero} id="hero">
-      {/* <img className={styles["hero-bg"]} src={HeroImage} alt="" /> */}
       <div className={styles.grain}></div>
       <div className={styles["hero-bg"]}>
-  <ReactPlayer
-    url="https://vimeo.com/1047276488/27744ae835"
-    className="react-player"
-    width="100%"
-    height="100%"
-    controls={true} // Set to false for a cleaner hero experience
-    playing
-    muted
-    loop // Loop the video for continuous playback
-  />
-</div>
-      {/* <img src="./media/HomeVideo.gif" className={styles["hero-bg"]} /> */}
+        <ReactPlayer
+          url="https://vimeo.com/1047880625/44fc4c7289"
+          className={styles["hero-video"]}
+          controls={true} // Set to false for a cleaner hero experience
+          playing
+          muted
+          loop // Loop the video for continuous playback
+        />
+      </div>
       <div className={styles.content}>
         <h1 className={styles.logo}>
-          {/* <span className="shouldAnimate">B</span>
-          <span className="shouldAnimate">a</span>
-          <span className="shouldAnimate">s</span>
-          <span className="shouldAnimate">a</span>
-          <span className="shouldAnimate">n</span>
-          <span className="shouldAnimate">t</span>
-          <span className="shouldAnimate">&</span>
-          <span className="shouldAnimate">I</span>
-          <span className="shouldAnimate">I</span>
-          <span className="shouldAnimate">I</span> */}
           {AnimatedText()}
-          
+
         </h1>
-
-        {/* <div>
-          <h1>Fifty years of memories, cherished and bright,</h1>
-          <h1>We reunite once more under the festive light.</h1>
-          <h1>Basant-2025, where old friends meet,</h1>
-          <h1>To relive the moments that time can't beat.</h1>
-        </div> */}
-
-        <div className={styles.timeline}>
-        
-          {!isLive && (
-            <>
-              <p>The countdown begins!</p>
-              <CountdownTimer
-                countdownDate={eventStartDate}
-                handleTimerComplete={setIsLive}
-              />
-            </>
-          )}
-        </div>
       </div>
+      <div className={styles.countdown}>
+
+{!isLive && (
+  <div className={styles.timer}>
+    <p>The countdown begins!</p>
+    <CountdownTimer
+      countdownDate={eventStartDate}
+      handleTimerComplete={setIsLive}
+    />
+  </div>
+)}
+</div>
       <div className={styles.scrollDown} aria-hidden="true">
         <ScrollDownIcon />
       </div>
