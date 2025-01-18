@@ -83,6 +83,19 @@ export const mainCoordinators = [
     roles: ["Co-coordinator"],
     department: "Chemical Engineering",
   },
+
+  {
+    name: "Tanushree",
+    imgSrc: "/media/coordinators/Tanushree.jpg",
+    roles: ["Content and Design Team "],
+    department: "Mechanical Engineering",
+  },
+  // {
+  //   name: "Tanushree",
+  //   imgSrc: "/media/coordinators/Tanushree.jpg",
+  //   roles: ["Content and Design Team "],
+  //   department: "Petroleum Engineering",
+  // },
   {
     name: "Mohit Gupta",
     imgSrc: "/media/coordinators/Mohit Gupta.jpeg",
@@ -101,6 +114,12 @@ export const mainCoordinators = [
     imgSrc: "/media/coordinators/VITTHAL BHALOT.jpg",
     roles: ["Hospitality Team"],
     department: "Mathematics and Computing Engineering",
+  },
+  {
+    name: "Himanshu Mittal",
+    imgSrc: "/media/coordinators/Himanshu Mittal.jpg",
+    roles: ["Hospitality Team"],
+    department: "Chemical Engineering",
   },
   {
     name: "Sushant Sharma",
