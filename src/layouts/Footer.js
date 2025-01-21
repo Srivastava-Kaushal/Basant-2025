@@ -7,6 +7,8 @@ import basantLogo from "../media/logo/BASANT_LOGO.png";
 import centenaryLogo from "../media/logo/Centenary_logo.jpg";
 import logo_100 from "../media/logo/100yrs_logo.jpg"
 import { ReactComponent as MailIcon } from "../media/icons/mail.svg"; 
+import { ReactComponent as InstaIcon } from "../media/icons/instagram.svg";
+
 import { ReactComponent as WAIcon } from "../media/icons/wa.svg";
 import { useState } from "react";
 
@@ -46,6 +48,22 @@ const Footer = () => {
                         aria-hidden="true"
                       >
                         <use href="/media/icons/sprite.svg#social-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={cx(styles["handle-wrapper"])}>
+                    <a
+                      className={styles.handle}
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.instagram.com/basantiitism/"
+                    >
+                      <svg
+                        role="presentation"
+                        aria-label="Instagram"
+                        aria-hidden="true"
+                      >
+                        <use href="/media/icons/sprite.svg#social-instagram"></use>
                       </svg>
                     </a>
                   </li>
@@ -90,6 +108,7 @@ const Footer = () => {
                       href="mailto:basant@iitism.ac.in"
                     >
                       <MailIcon />
+                      
                     </a>
                   </li>
                   {/* <li className={cx(styles['handle-wrapper'])}>
