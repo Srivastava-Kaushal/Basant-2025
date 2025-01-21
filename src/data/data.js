@@ -17,7 +17,7 @@ export const mainCoordinators = [
   },
   {
     name: "Prajesh Anand",
-    imgSrc: "/media/coordinators/Prajesh Anand.jpg",  
+    imgSrc: "/media/coordinators/Prajesh Anand.jpg",
     roles: ["Public Relations Team"],
     department: "Mathematics and Computing",
   },
@@ -64,7 +64,7 @@ export const mainCoordinators = [
     roles: ["Content and Design Team "],
     department: "Petroleum Engineering",
   },
-  
+
   {
     name: "Saurav Shakti",
     imgSrc: "/media/coordinators/SAURAV SHAKTI.JPG",
@@ -102,7 +102,7 @@ export const mainCoordinators = [
     roles: ["Security Head"],
     department: "Petroleum Engineering",
   },
-  
+
   {
     name: "Nishank Kumar",
     imgSrc: "/media/coordinators/Nishank Neem.jpg",
@@ -133,7 +133,6 @@ export const mainCoordinators = [
     roles: ["Operations and Logistics Team"],
     department: "Mechanical Engineering",
   },
-  
 ];
 
 export const technicalCoordinators = [
@@ -155,6 +154,12 @@ export const technicalCoordinators = [
     roles: ["Technical Head"],
     department: "Mechanical Engineering",
   },
+  {
+    name: "Aman Kasaudhan",
+    imgSrc: "/media/coordinators/Aman_Kasaudhan.jpg",
+    roles: ["Technical Head"],
+    department: "Mechanical Engineering",
+  },
 ];
 
 export const professors = [
@@ -167,7 +172,7 @@ export const professors = [
   {
     name: "Shri Mritunjay Sharma",
     imgSrc: "/media/professors/M-Sharma.jpeg",
-    roles: [ "Assistant Registrar, IRAA"],
+    roles: ["Assistant Registrar, IRAA"],
     // department: "Department of Management Studies and Industrial Engineering",
   },
   {
@@ -272,7 +277,8 @@ export const events = {
     id: "17",
     slotId: "0",
     title: "Campus Tour",
-    figureSrc:"https://www.jagranimages.com/images/newimg/28062022/28_06_2022-iit_ism_22843707.jpg",
+    figureSrc:
+      "https://www.jagranimages.com/images/newimg/28062022/28_06_2022-iit_ism_22843707.jpg",
     day: 1,
     time: "12:00",
     venue: "In front of new library",
@@ -540,4 +546,3 @@ export const firstDayImages = [
   { url: "media/day2/_DSC0292.webp" },
   { url: "media/day2/_DSC9949.webp" },
 ];
-
