@@ -238,6 +238,14 @@ export const BasantMessageData = [
     message:
       "Basant, the official alumni reunion of IIT (ISM) Dhanbad, stands as atestament to the enduring bonds that have withstood the test of time, serving as a celebration of the connections that still resonate within the soul of the campus. As we gather to celebrate the rich legacy of our institution and the enduring spirit of camaraderie, we look forward to creating new memories that will add another layer to the ever-evolving story of IIT (ISM) Dhanbad. 50 years after graduation, our esteemed alumni come back to the campus to reminisce the enduring friendships and unforgettable memories. Basant’25, scheduled from 1st February to 2nd February, promises to be an unforgettable celebration.Various events have been planned that includes Cultural Programs, Award Ceremony, General Body Meeting, indoor and outdoor sports activities, Photography Sessions, Star Night etc. We extend a heartfelt and warm welcome to all our esteemed alumni for Basant’25. May this celebration become an unforgettable chapter in the hearts of our alums, bestowing upon them moments to cherish and memories to last a lifetime",
   },
+  {
+    name: "Saurav Shakti",
+    role: "Coordinator, Basant'25",
+    department: "Department of Mineral and Metallurgical Engineering",
+    img: "/media/coordinators/SAURAV SHAKTI.JPG",
+    message:
+      "It is my privilege to welcome you to Basant 2025, the annual alumni reunion fest of IIT (ISM) Dhanbad. As a final-year student, organizing this event is a humble opportunity to honor the legacy of this esteemed institution and its remarkable alumni. This year, we are thrilled to celebrate the Golden Jubilee Batch of 1975, a milestone that reflects the enduring strength of our IIT (ISM) family. Basant is more than just a reunion, it’s a celebration of shared memories, achievements, and the bond we all hold close to our hearts. As we gather for this momentous occasion, it is also a time to inspire and be inspired. Your journey as alumni serves as a beacon for students like us, guiding us to dream big and strive for excellence. Basant 2025 is not just about reminiscing the past but also about building bridges between generations, exchanging ideas, and strengthening the legacy of IIT (ISM). Let’s come together to make this celebration truly unforgettable! We can’t wait to welcome you back home!",
+  },
 ];
 
 export const IiiMessageData = [

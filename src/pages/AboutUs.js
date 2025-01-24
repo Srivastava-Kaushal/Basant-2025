@@ -49,7 +49,14 @@ const AboutUs = () => {
         ({ department, img, message, name, role }, idx) => (
           <section className={stylesB.container} id="convenor" key={idx}>
             <h3 className={stylesB.title}>
-              <span>{idx === 0 ? "Convenor" : "Co-Convenor"}'s Message</span>
+              <span>
+                {idx === 0
+                  ? "Convenor"
+                  : idx == 1
+                  ? "Co-Convenor"
+                  : "Coordinator"}
+                's Message
+              </span>
             </h3>
             <div className={stylesB.introContainer}>
               <div className={stylesB.imageContainer}>
