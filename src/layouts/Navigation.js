@@ -116,14 +116,14 @@ const Navigation = ({ user }) => {
           )} */}
           <li>
             <a
-              href="https://your-form-link.com"
+              href="https://docs.google.com/forms/d/104eIdR4cfyMLkc-24J0OvLuFDrNcIcP4GT8T1KNov_I/viewform?edit_requested=true"
               target="_blank"
               rel="noopener noreferrer"
               style={style.button}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              Open Form
+              Reg. Form
             </a>
           </li>
         </ul>
