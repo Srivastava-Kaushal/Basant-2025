@@ -77,12 +77,7 @@ export const mainCoordinators = [
     roles: ["Co-coordinator"],
     department: "Management Studies and Industrial Engineering",
   },
-  {
-    name: "Navjot Singh",
-    imgSrc: "/media/coordinators/Navjot.jpg",
-    roles: ["Co-coordinator"],
-    department: "Chemical Engineering",
-  },
+ 
 
   {
     name: "Tanushree",
@@ -101,6 +96,12 @@ export const mainCoordinators = [
     imgSrc: "/media/coordinators/Mohit Gupta.jpeg",
     roles: ["Security Head"],
     department: "Petroleum Engineering",
+  },
+  {
+    name: "Navjot Singh",
+    imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Q82WISxpWPp5dHBTWHypFOZbRTvc0ST0xQ&s",
+    roles: ["Co-coordinator"],
+    department: "Chemical Engineering",
   },
 
   {
